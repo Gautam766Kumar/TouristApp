@@ -1,0 +1,78 @@
+.maindiv{
+     width: 18rem;
+     height: 28rem;
+     border: 1px solid black;
+     box-shadow: -5px 5px 10px 8px rgb(177, 175, 175);
+}
+.maindiv2{
+     width: 18rem;
+     height: 28rem;
+     border: 1px solid black;
+     box-shadow: -5px 5px 10px 8px rgb(177, 175, 175);
+     display: none;
+}
+.imag{
+     margin-top: 1rem;
+     width: 90%;
+     border: 1px solid black;
+     border-radius: 5px;
+     margin-left: 10px;
+     
+}
+img{
+     display: block;
+}
+.price{
+     display: flex;
+     flex-direction: row;
+     color: green;
+     margin-left: 1rem;
+     margin-top: 1rem;
+}
+.priVal{
+     margin-left: 0.4rem;
+     font-weight: bold;
+}
+.Name{
+     margin-left: 1rem;
+     font-family: monospace;
+     font-size: 1.3rem;
+     margin-top: 0.2rem;
+}
+.des{
+     margin-left: 1rem;
+     width: 16rem;
+     overflow-y: hidden;
+     height: 4.5rem;
+     margin-top: 0.3rem;
+     text-align: justify;
+}
+.des2{
+     margin-left: 1rem;
+     width: 16rem;
+     overflow-y: scroll; 
+     height: 4.5rem;
+     margin-top: 0.3rem;
+     text-align: justify;
+}
+.but{
+     width: 12rem;
+     margin-left: 3rem;
+     margin-top: 1rem;
+     background-color: aliceblue;
+     border: .1rem solid rgb(171, 208, 241);
+     border-radius: .15rem;
+     padding: .5rem;
+     cursor: pointer;
+}
+.readmore{
+     margin-top: 1rem;
+     margin-left: 1rem;
+     background-color: red;
+     color: white;
+     width: 6rem;
+     display: flex;
+     justify-content: center;
+     border-radius: 0.1rem;
+     cursor: pointer;
+}

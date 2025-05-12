@@ -1,0 +1,55 @@
+.outer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  height: auto;
+  width: 70rem;
+  justify-content: center;
+  margin-left: 6rem;
+  margin-top: 3rem;
+
+  
+}
+.had{
+  font-family: monospace;
+  font-size: 3rem;
+  margin-top: 2rem;
+  border: 2px dotted red;
+  border-radius: 1rem;
+  width: 50rem;
+  display: flex;
+  justify-self: center;
+  padding: .75rem;
+}
+.Notrip{
+  border :.1rem solid black;
+  border-radius: .5rem;
+  width: 15rem;
+  height: 8rem;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  display: none;
+}
+.Notrip2{
+  border :.1rem solid black;
+  border-radius: .5rem;
+  width: 15rem;
+  height: 8rem;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  margin-left: 35rem;
+}
+.no{
+  margin-top: 1rem;
+  margin-left: .5rem;
+}
+.relod{
+  width: 10rem;
+  height: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
